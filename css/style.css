@@ -37,11 +37,13 @@
     text-align: center;
     line-height: 50px;
     font-size: 18px;
+    color: black;
     text-decoration: none;
+    transition: all 0.5s ease;
 }
 .wrapper .menu nav ul li a:hover{
-    background-color: #7177bd;
-    color: #170d6e;
+    background-color: #8990e5;
+    color: #400473;
     font-weight: 600;
 }
 .wrapper .parallax{
@@ -58,6 +60,11 @@
     /*font-family: "B Nazanin";*/
     font-weight: bold;
     margin-bottom: 20px !important;
+    transition: all 0.5s ease;
+}
+.wrapper .parallax h1:hover{
+    color: #040673;
+    text-shadow: 10px 10px 10px black , -10px -10px 10px black;
 }
 .wrapper .parallax p{
     font-size: 25px;
@@ -66,6 +73,10 @@
     width: 80%;
     margin: 0 auto !important;
     line-height: 50px;
+    transition: all 0.5s ease;
+}
+.wrapper .parallax p:hover{
+    color: #040673;
 }
 .wrapper .news{
     width: 100%;
@@ -86,9 +97,9 @@
     margin: 0 0 20px 0 !important;
 }
 .wrapper .news .item p{
-    font-size: 14px;
-    padding-bottom: 10px !important;
-    text-align: justify;
+    font-size: 18px;
+    padding-bottom: 15px !important;
+    text-align: center;
     line-height: 20px;
 }
 .wrapper .news .item a{
@@ -103,13 +114,16 @@
 }
 .footer{
     width: 100%;
-    height: 50px;
     text-align: center;
     font-size: 16px;
-    background-color: whitesmoke;
+    background-color: #c0bfbf;
 }
 .footer p{
     font-size: 20px;
     padding-top: 20px !important;
     padding-bottom: 10px !important;
+}
+.footer span{
+    font-size: 25px;
+    color: #1c5eec;
 }

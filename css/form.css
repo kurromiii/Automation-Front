@@ -26,11 +26,19 @@
     width: 300px;
     height: 30px;
     display: block;
+    font-size: 14px;
     margin-bottom: 5px !important;
     transition: all 0.5s ease;
+    border-radius: 30px;
+}
+.form form table tr td input[type=text]::placeholder{
+    font-size: 14px;
+    color: #1c5eec;
+    padding-right: 15px;
 }
 .form form table tr td input[type=text]:focus,.form form table tr td input[type=password]{
     width: 400px;
+    border-radius: 30px;
 }
 .form form table tr td input[type=password]{
     width: 300px;
@@ -38,34 +46,42 @@
     display: block;
     margin-bottom: 5px !important;
     transition: all 0.5s ease;
+    border-radius: 30px;
 }
 .form form table tr td input[type=email]{
     width: 300px;
     height: 30px;
     display: block;
     margin-bottom: 5px !important;
+    border-radius: 30px;
 }
 .form form table tr td input[type=submit]{
     width: 100px;
     height: 30px;
-    /*display: block;*/
-    /*margin: 10px auto;*/
+    color: #300473;
+    font-size: 18px;
+    font-weight: bold;
     transition: all 0.5s ease;
+    border-radius: 30px;
+    margin-top: 30px !important;
 }
 .form form table tr td input[type=submit]:hover{
-    background-color: green;
+    background-color: #2967ee;
 }
 .form form table tr td input[type=search]{
     width: 100px;
     height: 30px;
     display: block;
     margin-bottom: 5px !important;
+    border-radius: 30px;
 }
 .form form table tr td select{
     width: 300px;
     height: 30px;
     margin: 10px auto;
     display: block;
+    border-radius: 30px;
+    margin-bottom: 5px !important;
 }
 .form form table tr td textarea{
     width: 100%;

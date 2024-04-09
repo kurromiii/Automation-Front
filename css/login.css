@@ -1,0 +1,109 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    direction: rtl;
+}
+.wrapper .upperPage{
+    width: 100%;
+    min-height: 335px;
+    background-color: gray;
+}
+.wrapper .upperPage p{
+    margin: 0 auto !important;
+}
+.wrapper .lowerPage{
+    width: 100%;
+    min-height: 339px;
+    background-color: whitesmoke;
+}
+.wrapper .login{
+    width: 350px;
+    height: 400px;
+    position: fixed;
+    left: calc(50% - 175px);
+    top: calc(50% - 200px);
+    background-color: darkgray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.wrapper .login h1{
+    font-size: 30px;
+    /*font-family: "B Nazanin";*/
+    font-style: italic;
+    position: relative;
+    top: 20px;
+    right: 130px;
+    transition: all 0.5s ease;
+    color:#8e5fd3;
+}
+.wrapper .login h1 span{
+    position: relative;
+    font-size: 20px;
+    color:#8e5fd3;
+    left: 5px;
+}
+.wrapper .login h1:hover{
+    color: #040673;
+}
+.wrapper .login .form form{
+    width: 80%;
+    height: auto;
+    margin: 0 auto !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    position: relative;
+}
+.wrapper .login .form form table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.wrapper .login .form form table tr{
+    width: 100%;
+    height: 40px;
+}
+.wrapper .login .form form table tr td{
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+}
+.wrapper .login .form form table tr td input[type=text]{
+    width: 200px;
+    height: 30px;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 20px !important;
+    transition: all 0.5s ease;
+    border-radius: 30px;
+}
+.wrapper .login .form form table tr td input[type=password]{
+    width: 200px;
+    height: 30px;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 20px !important;
+    transition: all 0.5s ease;
+    border-radius: 30px;
+}
+.wrapper .login .form form table tr td a{
+    color: #8e5fd3;
+    font-size: 20px;
+    /*font-family: "B Nazanin";*/
+    font-style: italic;
+    position: relative;
+    top: 20px;
+    right: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.wrapper .login .form form table tr td input[type=submit]{
+    width: 200px;
+    height: 30px;
+    color: #300473;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    margin-top: 50px !important;
+}
+.wrapper .login .form form table tr td input[type=submit]:hover{
+    cursor: pointer;
+}
+

@@ -33,12 +33,12 @@
     top: 20px;
     right: 130px;
     transition: all 0.5s ease;
-    color:#8e5fd3;
+    color:#400473;
 }
 .wrapper .login h1 span{
     position: relative;
     font-size: 20px;
-    color:#8e5fd3;
+    color:#400473;
     left: 5px;
 }
 .wrapper .login h1:hover{
@@ -84,7 +84,7 @@
     border-radius: 30px;
 }
 .wrapper .login .form form table tr td a{
-    color: #8e5fd3;
+    color: #400473;
     font-size: 20px;
     /*font-family: "B Nazanin";*/
     font-style: italic;

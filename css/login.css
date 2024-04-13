@@ -2,19 +2,19 @@
     margin: 0 !important;
     padding: 0 !important;
     direction: rtl;
+    font-family: 'vazir', serif;
+}
+body{
+    font-family: 'vazir', serif !important;
+}
+@font-face {
+    font-family: "vazir";
+    src: url("../vazir-font-v29.1.0/Vazir-Black.woff2");
 }
 .wrapper .upperPage{
     width: 100%;
-    min-height: 335px;
-    background-color: gray;
-}
-.wrapper .upperPage p{
-    margin: 0 auto !important;
-}
-.wrapper .lowerPage{
-    width: 100%;
-    min-height: 339px;
-    background-color: whitesmoke;
+    min-height: 674px;
+    background-color: #e1e7e9;
 }
 .wrapper .login{
     width: 350px;
@@ -22,35 +22,29 @@
     position: fixed;
     left: calc(50% - 175px);
     top: calc(50% - 200px);
-    background-color: darkgray;
+    background-color: #393838;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
 }
 .wrapper .login h1{
     font-size: 30px;
     /*font-family: "B Nazanin";*/
-    font-style: italic;
-    position: relative;
-    top: 20px;
-    right: 130px;
-    transition: all 0.5s ease;
-    color:#400473;
+    text-align: center;
+    margin-top: 15px !important;
+    color:#e1e7e9;
 }
 .wrapper .login h1 span{
     position: relative;
     font-size: 20px;
-    color:#400473;
+    color:#e1e7e9;
     left: 5px;
-}
-.wrapper .login h1:hover{
-    color: #040673;
 }
 .wrapper .login .form form{
     width: 80%;
     height: auto;
     margin: 0 auto !important;
-    padding-top: 50px !important;
-    padding-bottom: 50px !important;
-    position: relative;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
 }
 .wrapper .login .form form table{
     width: 100%;
@@ -58,52 +52,65 @@
 }
 .wrapper .login .form form table tr{
     width: 100%;
-    height: 40px;
+    height: 15px;
 }
 .wrapper .login .form form table tr td{
-    position: relative;
     text-align: center;
     font-size: 16px;
 }
+.wrapper .login .form form table tr td p{
+    text-align: right;
+    margin-bottom: 5px !important;
+    color: white;
+}
 .wrapper .login .form form table tr td input[type=text]{
-    width: 200px;
+    width: 90%;
     height: 30px;
     display: block;
     font-size: 14px;
-    margin-bottom: 20px !important;
-    transition: all 0.5s ease;
-    border-radius: 30px;
+    margin-bottom: 25px !important;
+    border: none;
 }
 .wrapper .login .form form table tr td input[type=password]{
-    width: 200px;
+    width: 90%;
     height: 30px;
     display: block;
     font-size: 14px;
-    margin-bottom: 20px !important;
-    transition: all 0.5s ease;
-    border-radius: 30px;
-}
-.wrapper .login .form form table tr td a{
-    color: #400473;
-    font-size: 20px;
-    /*font-family: "B Nazanin";*/
-    font-style: italic;
-    position: relative;
-    top: 20px;
-    right: 10px;
-    cursor: pointer;
-    text-decoration: none;
+    margin-bottom: 25px !important;
+    border: none;
 }
 .wrapper .login .form form table tr td input[type=submit]{
     width: 200px;
     height: 30px;
-    color: #300473;
     font-size: 18px;
     font-weight: bold;
     transition: all 0.5s ease;
-    margin-top: 50px !important;
+    margin-top: 30px !important;
+    background: rgb(243,242,244);
+    background: linear-gradient(0deg, rgba(243,242,244,1) 0%, rgba(166,241,212,1) 76%);
+    border: none;
 }
 .wrapper .login .form form table tr td input[type=submit]:hover{
     cursor: pointer;
 }
+.wrapper .login .form form table tr td div{
+    background-color: #e1e7e9;
+    width: 200px;
+    height: 30px;
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    margin: auto !important;
+    margin-top: 20px !important;
+}
+.wrapper .login .form form table tr td a{
+    color: black;
+    font-size: 18px;
+    font-weight: lighter;
+    text-decoration: none;
+    display: block;
+    padding:5px ;
+}
+
+
 

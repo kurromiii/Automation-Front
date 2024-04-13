@@ -6,10 +6,20 @@
 .wrapper .menu{
     position: static !important;
 }
+.wrapper h1{
+    background-color: #F3F3F3;
+    height: 40px;
+    padding-top: 10px !important;
+    padding-right: 20px!important;
+    transition: all 0.5s ease;
+}
+.wrapper h1:hover{
+    text-shadow: 10px 10px 10px black ;
+}
 .dashboard{
     width: 100%;
     height: 400px;
-    background-color:gray;
+    background-color:whitesmoke;
 }
 .dashboard .card:nth-child(1){
     width: 30%;
@@ -36,6 +46,7 @@
 .dashboard .card h1{
     text-align:  center;
     padding-top: 20px !important;
+    font-size: 20px;
 }
 .dashboard .card .child:nth-child(2){
     width: 50%;
@@ -45,7 +56,7 @@
     top: 20px;
     right: 10px;
     left: 10px;
-    background-color: gray;
+    background-color: #222831;
 }
 .dashboard .card .child:nth-child(3){
     width: 50%;
@@ -54,17 +65,17 @@
     position: relative;
     top: 20px;
     left: 10px;
-    background-color: #6d96fc;
+    background-color:#31363F;
 }
 .dashboard .card .child span{
     font-size: 100px;
-    color:#400473;
+    color:#EEEEEE;
     display: block;
     text-align: center;
     padding-top: 10px !important;
 }
 .dashboard .card a{
-    color: #400473;
+    color: #76ABAE;
     font-size: 20px;
     /*font-family: "B Nazanin";*/
     font-style: italic;
@@ -74,3 +85,4 @@
     text-align: center;
     padding-top: 10px !important;
 }
+

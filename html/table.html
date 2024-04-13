@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="../css/table.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.5.2-web/css/all.min.css">
 </head>
 <body>
+<div class="wrapper">
+    <!--menu-->
+    <section class="menu">
+        <div class="right">
+            <ul>
+                <li><a href="">صفحه اصلی </a></li>
+                <li><a href="">صفحه اصلی </a></li>
+                <li><a href="">صفحه اصلی </a></li>
+                <li><a href="">صفحه اصلی </a></li>
+            </ul>
+        </div>
+        <div class="left">
+            <ul>
+                <li><a href="">پروفایل </a></li>
+                <li><a href="">خروج </a></li>
+            </ul>
+        </div>
+    </section>
+    <!--end menu-->
+    <h1>جدول فلان</h1>
+</div>
 <table>
     <thead>
     <tr>
@@ -13,6 +36,7 @@
         <th>b</th>
         <th>c</th>
         <th>d</th>
+        <th class="btn">operation</th>
     </tr>
     </thead>
     <tbody>
@@ -21,18 +45,42 @@
         <td>2</td>
         <td>3</td>
         <td>4</td>
+        <td class="btn">
+            <button onclick="edit(${letter.id})"><i class="fa fa-edit"></i>
+                Edit
+            </button>
+            <button onclick="remove(${letter.id})"><i class="fa fa-remove"></i>
+                Remove
+            </button>
+        </td>
     </tr>
     <tr>
         <td>1</td>
         <td>2</td>
         <td>3</td>
         <td>4</td>
+        <td class="btn">
+            <button onclick="edit(${letter.id})"><i class="fa fa-edit"></i>
+                Edit
+            </button>
+            <button onclick="remove(${letter.id})"><i class="fa fa-remove"></i>
+                Remove
+            </button>
+        </td>
     </tr>
     <tr>
         <td>1</td>
         <td>2</td>
         <td>3</td>
         <td>4</td>
+        <td class="btn">
+            <button onclick="edit(${letter.id})"><i class="fa fa-edit"></i>
+                Edit
+            </button>
+            <button onclick="remove(${letter.id})"><i class="fa fa-remove"></i>
+                Remove
+            </button>
+        </td>
     </tr>
     </tbody>
 </table>

@@ -2,6 +2,11 @@
     margin: 0 !important;
     padding: 0 !important;
     direction: rtl;
+    font-family: "vazir", serif;
+}
+@font-face {
+    font-family: "vazir";
+    src: url("vazir-font-v29.1.0/Vazir-Bold.ttf");
 }
 .form form{
     width: 80%;

@@ -3,6 +3,7 @@
     padding: 0 !important;
     direction: rtl;
     font-family: 'vazir', serif;
+    overflow-y: hidden;
 }
 body{
     font-family: 'vazir', serif !important;
@@ -23,7 +24,7 @@ body{
 }
 .wrapper .upperPage div h2{
     text-align: center;
-    padding-top:60px !important;
+    padding-top:55px !important;
     font-family: "mery", serif;
 }
 .wrapper .login{

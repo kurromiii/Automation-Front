@@ -32,8 +32,8 @@ body{
     position: fixed;
     left: calc(50% - 175px);
     top: calc(50% - 200px);
-    background: rgb(215,225,240);
-    background: linear-gradient(0deg, rgba(215,225,240,1) 0%, rgba(242,205,255,1) 100%);
+    background: rgb(242,205,255);
+    background: linear-gradient(0deg, rgba(242,205,255,1) 0%, rgba(215,225,240,1) 67%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
 }

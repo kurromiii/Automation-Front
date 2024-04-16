@@ -8,6 +8,18 @@
     font-family: "vazir";
     src: url("../vazir-font-v29.1.0/Vazir-Medium.woff2");
 }
+.wrapper .menu .left ul li a{
+    color: black !important;
+}
+.wrapper .menu .left ul li:nth-child(2) a{
+    color: black !important;
+    text-shadow: none !important;
+    font-weight: bold;
+}
+.wrapper .menu .left ul li a:hover{
+    font-weight: bold !important;
+    color: #3f6199 !important;
+}
 .wrapper .background{
     width: 100%;
     min-height:90vh;
@@ -43,7 +55,7 @@
     top: 50px;
     right: 20px;
     left: 50px;
-    background-color: #3f6199;
+    background-color: #3a537b;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .dashboard .cardboard:nth-child(2){
@@ -54,7 +66,7 @@
     top: 50px;
     right:50px;
     left: 50px;
-    background-color: #3f6199;
+    background-color: #3a537b;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .dashboard .cardboard h1{
@@ -111,5 +123,32 @@
 }
 .dashboard .cardboard .a-btn:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media only screen and (max-width: 600px) {
+    .wrapper .menu .right ul li{
+        padding: 5px !important;
+    }
+    .wrapper .menu .right ul li a{
+        line-height: 50px;
+        font-size: 13px;
+    }
+    .wrapper .menu .left ul li a{
+        line-height: 50px;
+        font-size: 13px;
+    }
+    .wrapper .background div h1{
+        font-size: 22px;
+        position: relative;
+        right: 100px;
+        top: 150px;
+    }
+    .footer p{
+        font-size: 13px;
+        padding-top: 20px !important;
+        padding-bottom: 10px !important;
+    }
+    .footer span{
+        font-size: 20px;
+    }
 }
 

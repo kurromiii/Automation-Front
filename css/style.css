@@ -103,16 +103,21 @@
     text-align: center;
     line-height: 50px;
     font-size: 18px;
-    color: #e80337;
+    color:white;
     text-decoration: none;
     transition: all 0.5s ease;
 }
-.wrapper .menu .right ul li a:hover{
-    font-weight: bold;
-    color: #6d49b6;
+.wrapper .menu .left ul li:nth-child(2) a{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
 }
-.wrapper .menu .left ul li a:hover{
-   font-weight: bold;
+.wrapper .menu .left ul li:nth-child(2) a:hover{
+    font-weight: bold;
+    color: #3f6199;
+}
+.wrapper .menu ul li a:hover{
+    font-weight: bold;
+    color: #3f6199;
 }
 .wrapper .parallax{
     width: 100%;
@@ -120,7 +125,7 @@
     text-align: center;
     padding-top: 100px !important;
     box-sizing: border-box;
-    background: url("../image/home.jpg") center center no-repeat fixed;
+    background: url("../image/homepage.jpg") center center no-repeat fixed;
     background-size: cover;
 }
 .wrapper .parallax div h1{
@@ -129,7 +134,7 @@
     right: 100px;
     top: 100px;
     transition: all 0.5s ease;
-    color: #6d49b6;
+    color: #3f6199;
 }
 .wrapper .parallax h1:hover{
     text-shadow: 10px 10px 10px black;

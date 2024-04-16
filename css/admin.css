@@ -2,26 +2,40 @@
     margin: 0;
     padding: 0;
     direction: rtl;
+    font-family: 'vazir', serif;
 }
-.wrapper .menu{
-    position: static !important;
+@font-face {
+    font-family: "vazir";
+    src: url("../vazir-font-v29.1.0/Vazir-Medium.woff2");
 }
-.wrapper h1{
-    background-color: #F3F3F3;
-    height: 40px;
-    padding-top: 10px !important;
-    padding-right: 20px!important;
+.wrapper .background{
+    width: 100%;
+    min-height:90vh;
+    text-align: center;
+    padding-top: 100px !important;
+    box-sizing: border-box;
+    background: url("../image/admin.jpg") center center no-repeat fixed;
+    background-size: cover;
+}
+.wrapper .background div h1{
+    font-size: 35px;
+    position: relative;
+    right: 100px;
+    top: 50px !important;
     transition: all 0.5s ease;
+    color: #3f6199;
 }
-.wrapper h1:hover{
-    text-shadow: 10px 10px 10px black ;
+.wrapper .background h1:hover{
+    text-shadow: 10px 10px 10px black;
+}
+.allDashBoard{
+    background-color: #d7d8ed;
 }
 .dashboard{
     width: 100%;
     height: 400px;
-    background-color:whitesmoke;
 }
-.dashboard .card:nth-child(1){
+.dashboard .cardboard:nth-child(1){
     width: 30%;
     height: 270px;
     float: right;
@@ -29,10 +43,10 @@
     top: 50px;
     right: 20px;
     left: 50px;
-    background-color: whitesmoke;
+    background-color: #3f6199;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.dashboard .card:nth-child(2){
+.dashboard .cardboard:nth-child(2){
     width: 30%;
     height: 270px;
     float: right;
@@ -40,15 +54,16 @@
     top: 50px;
     right:50px;
     left: 50px;
-    background-color: whitesmoke;
+    background-color: #3f6199;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.dashboard .card h1{
+.dashboard .cardboard h1{
     text-align:  center;
     padding-top: 20px !important;
     font-size: 20px;
+    color: black;
 }
-.dashboard .card .child:nth-child(2){
+.dashboard .cardboard .child:nth-child(2){
     width: 50%;
     height: 150px;
     float: right;
@@ -56,33 +71,45 @@
     top: 20px;
     right: 10px;
     left: 10px;
-    background-color: #222831;
 }
-.dashboard .card .child:nth-child(3){
+.dashboard .cardboard .child:nth-child(3){
     width: 50%;
     height: 150px;
     float: right;
     position: relative;
     top: 20px;
     left: 10px;
-    background-color:#31363F;
 }
-.dashboard .card .child span{
+.dashboard .cardboard .child span{
     font-size: 100px;
-    color:#EEEEEE;
+    color: #dcd5d5;
     display: block;
     text-align: center;
     padding-top: 10px !important;
+    text-shadow: 10px 10px 10px #0c0c0c;
 }
-.dashboard .card a{
-    color: #76ABAE;
-    font-size: 20px;
-    /*font-family: "B Nazanin";*/
-    font-style: italic;
-    cursor: pointer;
+.dashboard .cardboard .a-btn {
+    background: rgb(205,174,238);
+    background: radial-gradient(circle, rgba(205,174,238,1) 0%, rgba(113,159,221,1) 100%);
+    width: 150px;
+    height: 30px;
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    margin: auto !important;
+    margin-top: 20px !important;
+    transition: all 0.5s ease;
+}
+.dashboard .cardboard a{
+    color: black;
+    font-size: 18px;
+    font-weight: lighter;
     text-decoration: none;
     display: block;
+    padding:5px ;
     text-align: center;
-    padding-top: 10px !important;
+}
+.dashboard .cardboard .a-btn:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 

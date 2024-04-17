@@ -48,14 +48,16 @@
 .wrapper .dashboard .info{
     width: 100%;
     height: 300px;
-    background-color: #8e5fd3;
+    margin-bottom: 50px !important;
+    padding-top: 20px !important;
 }
 .wrapper .dashboard .info .infoCard{
-    width: 30%;
+    width: 25%;
     height: 250px;
-    background-color: #5f76d3;
+    background-color: #7b8ed9;
     float: right;
     margin: 20px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .wrapper .dashboard .info .infoCard div{
     text-align: center;
@@ -65,4 +67,71 @@
 .wrapper .dashboard .info .infoCard p{
     padding-top: 10px !important;
     text-align: center;
+    font-size: 18px;
+    color: black;
 }
+.wrapper .dashboard .charts{
+    width: 100%;
+    height: 700px;
+}
+.wrapper .dashboard .charts .chartsCard{
+    width: 30%;
+    height: 250px;
+    background-color: #4b6998;
+    float: right;
+    margin: 20px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.wrapper .dashboard .charts .chartsCard p{
+    padding-top: 10px !important;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+.wrapper .dashboard .charts .chartsCard .section{
+    width: 50%;
+    float: right;
+    height: 200px;
+    padding-top: 10px !important;
+}
+.wrapper .dashboard .charts .chartsCard .section .child{
+    width: 80%;
+    height: 180px;
+    margin: auto !important;
+}
+.wrapper .dashboard .charts .chartsCard .child div{
+    margin: auto !important;
+}
+.wrapper .dashboard .charts .chartsCard .child span{
+    font-size: 100px;
+    color: black;
+    display: block;
+    text-align: center;
+    padding-top: 10px !important;
+}
+.wrapper .dashboard .charts .chartsCard .child a{
+    color: black;
+    font-size: 18px;
+    font-weight: lighter;
+    text-decoration: none;
+    display: block;
+    padding:5px ;
+    text-align: center;
+}
+.wrapper .dashboard .charts .chartsCard .child .a-btn{
+    background: rgb(205,174,238);
+    background: radial-gradient(circle, rgba(205,174,238,1) 0%, rgba(113,159,221,1) 100%);
+    width: 150px;
+    height: 30px;
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    margin: auto !important;
+    margin-top: 20px !important;
+    transition: all 0.5s ease;
+}
+.wrapper .dashboard .charts .chartsCard .child .a-btn:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+

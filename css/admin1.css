@@ -54,7 +54,7 @@
 .wrapper .dashboard .info .infoCard{
     width: 25%;
     height: 250px;
-    background-color: #7b8ed9;
+    background-color: #8b9cdd;
     float: right;
     margin: 20px !important;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -77,7 +77,7 @@
 .wrapper .dashboard .charts .chartsCard{
     width: 30%;
     height: 250px;
-    background-color: #4b6998;
+    background-color: #627eaa;
     float: right;
     margin: 20px !important;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

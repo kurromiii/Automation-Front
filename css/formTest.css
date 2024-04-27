@@ -1,0 +1,105 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    direction: rtl;
+    font-family: "vazir", serif;
+}
+@font-face {
+    font-family: "vazir";
+    src: url("vazir-font-v29.1.0/Vazir-Bold.ttf");
+}
+.form form{
+    width: 80%;
+    height: auto;
+    margin: 0 auto !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    position: relative;
+}
+.form form table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.form form table tr{
+    width: 100%;
+    height: 40px;
+}
+.form form table tr td{
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+}
+.form form table tr td input[type=text]{
+    width: 200px;
+    height: 30px;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px !important;
+    transition: all 0.5s ease;
+    border-radius: 30px;
+}
+.form form table tr td input[type=text]::placeholder{
+    font-size: 14px;
+    color: #1c5eec;
+    padding-right: 15px;
+}
+.form form table tr td input[type=text]:focus,.form form table tr td input[type=password]{
+    width: 300px;
+    border-radius: 30px;
+}
+.form form table tr td input[type=password]{
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin-bottom: 5px !important;
+    transition: all 0.5s ease;
+    border-radius: 30px;
+}
+.form form table tr td input[type=email]{
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin-bottom: 5px !important;
+    border-radius: 30px;
+}
+.form form table tr td input[type=submit]{
+    width: 100px;
+    height: 30px;
+    color: #300473;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    border-radius: 30px;
+    margin-top: 30px !important;
+}
+.form form table tr td input[type=submit]:hover{
+    background-color: #2967ee;
+}
+.form form table tr td input[type=search]{
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin-bottom: 5px !important;
+    border-radius: 30px;
+}
+.form form table tr td select{
+    width: 200px;
+    height: 30px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 30px;
+    margin-bottom: 5px !important;
+}
+.form form table tr td textarea{
+    width: 100%;
+    height: 300px;
+    resize: none;
+}
+.form form table tr td span{
+    font-size: 20px;
+    color: #1c5eec;
+    position: absolute;
+    top: 10px;
+    right: 175px;
+    cursor: pointer;
+}

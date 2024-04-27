@@ -1,105 +1,190 @@
-*{
-    margin: 0 !important;
-    padding: 0 !important;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     direction: rtl;
-    font-family: "vazir", serif;
+    font-family: 'vazir', serif;
 }
 @font-face {
     font-family: "vazir";
-    src: url("vazir-font-v29.1.0/Vazir-Bold.ttf");
+    src: url("../vazir-font-v29.1.0/Vazir-Medium.woff2");
 }
-.form form{
-    width: 80%;
-    height: auto;
-    margin: 0 auto !important;
-    padding-top: 50px !important;
-    padding-bottom: 50px !important;
-    position: relative;
+img{
+    width: 70%;
+    display: block;
+    margin: auto;
 }
-.form form table{
+.formbold-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+}
+
+.formbold-form-wrapper {
+    margin: 0 auto;
+    max-width: 570px;
     width: 100%;
-    border-collapse: collapse;
+    background: white;
+    padding: 40px;
 }
-.form form table tr{
+
+.formbold-form-img {
+    margin-bottom: 45px;
+}
+
+.formbold-input-group {
+    margin-bottom: 18px;
+}
+
+.formbold-form-select {
     width: 100%;
-    height: 40px;
-}
-.form form table tr td{
-    position: relative;
-    text-align: center;
+    padding: 12px 22px;
+    border-radius: 5px;
+    border: 1px solid #dde3ec;
+    background: #ffffff;
     font-size: 16px;
-}
-.form form table tr td input[type=text]{
-    width: 200px;
-    height: 30px;
-    display: block;
-    font-size: 14px;
-    margin-bottom: 5px !important;
-    transition: all 0.5s ease;
-    border-radius: 30px;
-}
-.form form table tr td input[type=text]::placeholder{
-    font-size: 14px;
-    color: #1c5eec;
-    padding-right: 15px;
-}
-.form form table tr td input[type=text]:focus,.form form table tr td input[type=password]{
-    width: 300px;
-    border-radius: 30px;
-}
-.form form table tr td input[type=password]{
-    width: 200px;
-    height: 30px;
-    display: block;
-    margin-bottom: 5px !important;
-    transition: all 0.5s ease;
-    border-radius: 30px;
-}
-.form form table tr td input[type=email]{
-    width: 200px;
-    height: 30px;
-    display: block;
-    margin-bottom: 5px !important;
-    border-radius: 30px;
-}
-.form form table tr td input[type=submit]{
-    width: 100px;
-    height: 30px;
-    color: #300473;
-    font-size: 18px;
-    font-weight: bold;
-    transition: all 0.5s ease;
-    border-radius: 30px;
-    margin-top: 30px !important;
-}
-.form form table tr td input[type=submit]:hover{
-    background-color: #2967ee;
-}
-.form form table tr td input[type=search]{
-    width: 200px;
-    height: 30px;
-    display: block;
-    margin-bottom: 5px !important;
-    border-radius: 30px;
-}
-.form form table tr td select{
-    width: 200px;
-    height: 30px;
-    margin: 10px auto;
-    display: block;
-    border-radius: 30px;
-    margin-bottom: 5px !important;
-}
-.form form table tr td textarea{
-    width: 100%;
-    height: 300px;
+    color: #536387;
+    outline: none;
     resize: none;
 }
-.form form table tr td span{
-    font-size: 20px;
-    color: #1c5eec;
+
+.formbold-input-radio-wrapper {
+    margin-bottom: 25px;
+}
+.formbold-radio-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.formbold-radio-label {
+    font-size: 14px;
+    line-height: 24px;
+    color: #07074d;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.formbold-input-radio {
     position: absolute;
-    top: 10px;
-    right: 175px;
+    opacity: 0;
+    cursor: pointer;
+}
+.formbold-radio-checkmark {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #ffffff;
+    border: 1px solid #dde3ec;
+    border-radius: 50%;
+}
+.formbold-radio-label,
+.formbold-input-radio:checked,
+~ .formbold-radio-checkmark {
+    background-color: #6a64f1;
+}
+.formbold-radio-checkmark:after {
+    content: '';
+    position: absolute;
+    display: none;
+}
+
+.formbold-radio-label,
+.formbold-input-radio:checked,
+~ .formbold-radio-checkmark:after {
+    display: block;
+}
+
+.formbold-radio-label .formbold-radio-checkmark:after {
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ffffff;
+    transform: translate(-50%, -50%);
+}
+
+.formbold-form-input {
+    width: 100%;
+    padding: 13px 22px;
+    border-radius: 5px;
+    border: 1px solid #dde3ec;
+    background: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    color: #07074d;
+    outline: none;
+    resize: none;
+}
+.formbold-form-input::placeholder {
+    color: #536387;
+}
+.formbold-form-input:focus {
+    border-color: #6a64f1;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+.formbold-form-label {
+    color: #07074d;
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.formbold-btn {
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 14px 25px;
+    border: none;
+    font-weight: 500;
+    background-color: #6a64f1;
+    color: white;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.formbold-btn:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.formbold-input-file {
+    margin-top: 30px;
+}
+.formbold-input-file input[type="file"] {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    z-index: -1;
+}
+.formbold-input-file .formbold-input-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.formbold-filename-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 22px;
+}
+.formbold-filename {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 24px;
+    color: #536387;
+}
+.formbold-filename svg {
     cursor: pointer;
 }

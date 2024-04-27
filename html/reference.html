@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/persian-datepicker.min.css">
+</head>
+<body>
+<div class="formbold-main-wrapper">
+    <div class="formbold-form-wrapper">
+        <!--img-->
+        <img src="../image/reference.jpg" alt="">
+
+        <!--start form-->
+        <form action="" method="POST">
+
+            <div class="formbold-input-group">
+                <label for="username" class="formbold-form-label"> ارجاع دهنده </label>
+                <input type="text" name="username" id="username" placeholder="کاربر سیستم" class="formbold-form-input"/>
+            </div>
+
+            <div class="formbold-input-group">
+                <label for="referenceReceiver" class="formbold-form-label"> ارجاع گیرنده </label>
+                <input type="text" name="referenceReceiver" id="referenceReceiver" placeholder="نام کاربری ارجاع گیرنده را وارد کنید" class="formbold-form-input"/>
+            </div>
+
+            <div class="formbold-input-group">
+                <label for="person-ref-list" class="formbold-form-label"> ارجاع گیرندکان نامه </label>
+                <input type="text" name="person-ref-list" id="person-ref-list" placeholder="ارجاع گیرندگان نامه را وارد کنید" class="formbold-form-input"/>
+            </div>
+
+            <div class="formbold-input-group">
+                <label for="priority" class="formbold-form-label">
+                    اولویت ارجاع را انتخاب کنید
+                </label>
+
+                <select class="formbold-form-select" name="priority" id="priority">
+                    <option value="Student">Student</option>
+                    <option value="designer">UX/UI Designer</option>
+                </select>
+            </div>
+
+            <div class="formbold-input-group">
+                <label for="r_refType" class="formbold-form-label">
+                    نوع ارجاع را انتخاب کنید
+                </label>
+
+                <select class="formbold-form-select" name="r_refType" id="r_refType">
+                    <option value="Student">Student</option>
+                    <option value="designer">UX/UI Designer</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="paraph" class="formbold-form-label">
+                    پاراف را وارد کنید
+                </label>
+                <textarea
+                        rows="3"
+                        name="paraph"
+                        id="paraph"
+                        placeholder="پاراف..."
+                        class="formbold-form-input"
+                ></textarea>
+            </div>
+
+            <div>
+                <label for="explanation" class="formbold-form-label">
+                    توضیحات ارجاع را وارد کنید
+                </label>
+                <textarea
+                        rows="4"
+                        name="explanation"
+                        id="explanation"
+                        placeholder="توضیحات..."
+                        class="formbold-form-input"
+                ></textarea>
+            </div>
+
+            <div class="formbold-input-group">
+                <label for="r_expiration" class="formbold-form-label"> تاریخ انقضا </label>
+                <input type="text" name="r_expiration" id="r_expiration" placeholder="تاریخ انقضای ارجاع را وارد کنید" class="formbold-form-input"/>
+            </div>
+
+            <button class="formbold-btn">ثبت</button>
+        </form>
+        <!--end form-->
+    </div>
+</div>
+
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/persian-date.min.js"></script>
+<script src="../js/persian-datepicker.min.js"></script>
+<script src="../js/app.js"></script>
+</body>
+</html>

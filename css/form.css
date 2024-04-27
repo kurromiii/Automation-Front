@@ -155,36 +155,37 @@ img{
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
 }
 
-.formbold-input-file {
-    margin-top: 30px;
-}
-.formbold-input-file input[type="file"] {
-    position: absolute;
-    top: 6px;
-    left: 0;
-    z-index: -1;
-}
-.formbold-input-file .formbold-input-label {
+.formbold-form-file-flex {
     display: flex;
     align-items: center;
-    gap: 10px;
-    position: relative;
+    gap: 20px;
 }
-
-.formbold-filename-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    margin-bottom: 22px;
+.formbold-form-file-flex .formbold-form-label {
+    margin-bottom: 0;
 }
-.formbold-filename {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.formbold-form-file {
     font-size: 14px;
     line-height: 24px;
     color: #536387;
 }
-.formbold-filename svg {
+.formbold-form-file::-webkit-file-upload-button {
+    display: none;
+}
+.formbold-form-file:before {
+    content: 'Upload file';
+    display: inline-block;
+    background: #EEEEEE;
+    border: 0.5px solid #FBFBFB;
+    box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    padding: 3px 12px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
     cursor: pointer;
+    color: #637381;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    margin-right: 10px;
 }

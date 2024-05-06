@@ -42,20 +42,18 @@
 }
 .wrapper .dashboard{
     width: 100%;
-    height: 1000px;
     background-color: #d7d8ed;
 }
 .wrapper .dashboard .info{
     width: 100%;
-    height: 300px;
     margin-bottom: 50px !important;
     padding-top: 20px !important;
+    display: flex;
+    flex-wrap: wrap;
 }
 .wrapper .dashboard .info .infoCard{
-    width: 25%;
-    height: 250px;
+    width: 20%;
     background-color: #8b9cdd;
-    float: right;
     margin: 20px !important;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -72,13 +70,12 @@
 }
 .wrapper .dashboard .charts{
     width: 100%;
-    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .wrapper .dashboard .charts .chartsCard{
     width: 30%;
-    height: 250px;
     background-color: #627eaa;
-    float: right;
     margin: 20px !important;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -89,14 +86,15 @@
     color: black;
 }
 .wrapper .dashboard .charts .chartsCard .section{
-    width: 50%;
-    float: right;
-    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /*float: right;*/
+    /*height: 200px;*/
     padding-top: 10px !important;
 }
 .wrapper .dashboard .charts .chartsCard .section .child{
-    width: 80%;
-    height: 180px;
+    width: 50%;
     margin: auto !important;
 }
 .wrapper .dashboard .charts .chartsCard .child div{
@@ -104,8 +102,8 @@
 }
 .wrapper .dashboard .charts .chartsCard .child span{
     font-size: 100px;
-    color: black;
     display: block;
+    color: black;
     text-align: center;
     padding-top: 10px !important;
 }
@@ -118,7 +116,7 @@
     padding:5px ;
     text-align: center;
 }
-.wrapper .dashboard .charts .chartsCard .child .a-btn{
+.wrapper .dashboard .charts .chartsCard .child .a-btn {
     background: rgb(205,174,238);
     background: radial-gradient(circle, rgba(205,174,238,1) 0%, rgba(113,159,221,1) 100%);
     width: 150px;
@@ -128,6 +126,7 @@
     display: block;
     margin: auto !important;
     margin-top: 20px !important;
+    margin-bottom: 5px!important;
     transition: all 0.5s ease;
 }
 .wrapper .dashboard .charts .chartsCard .child .a-btn:hover{

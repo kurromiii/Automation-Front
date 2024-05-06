@@ -1,0 +1,25 @@
+body{
+    background: url("../image/homepage.jpg") center center no-repeat fixed;
+    background-size: cover;
+}
+.formbold-form-wrapper {
+    background: none!important;
+}
+.formbold-form-input {
+    width: 50% !important;
+    padding: 13px 22px;
+    border-radius: 5px;
+    border: 1px solid #586683;
+    background: none !important;
+    font-weight: 500;
+    font-size: 16px;
+    color: #07074d;
+    outline: none;
+    resize: none;
+}
+.formbold-btn{
+    width: 50%!important;
+}
+.formbold-form-title h2{
+    text-align: right !important;
+}
